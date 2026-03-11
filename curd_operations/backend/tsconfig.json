@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or a modern version like ES2020
+    "module": "commonjs",
+    "outDir": "./dist", // Output directory for compiled JS files
+    "rootDir": "./src", // Source directory for TS files
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enables compatibility with CommonJS modules
+    "skipLibCheck": true, // Skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}
